@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wedding Blog</title>
+
+        <style>
+            body{
+                background:#F7CAC9;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                margin: 0;
+                padding: 0;
+            }
+            nav{
+                color: black;
+                padding: 10px;
+                display: inline-flex;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+            }
+            li{
+                margin: 20px;
+                padding: 10px;
+                display:inline-block;
+            }
+            #sec1{
+                background-image: url(pics/cover.jpg);
+                background-size: 1360px 768px;
+                background-repeat: no-repeat;
+                color: black;
+                padding: 200px;
+            }
+            #header1{
+                font-size: 60px;
+                text-align: left;
+            }
+            #para1{
+                text-align: left;
+                font-size: 20px;
+            }
+            #header2{
+                padding: 0;
+                text-align: center;
+                color: black;
+                font-size: 30px;
+            }
+            .gallery{
+                color: black;
+                margin: 0;
+                padding: 10px;
+                display: flex;
+                flex-direction: row;
+            }
+            #image{
+                padding: 10px;
+                position: center;
+            }
+            #caption{
+                padding: 10px;
+                text-align: center;
+                color: white;
+                background-color: #ff6f61;
+            }
+            #memories{
+                font-size: 30px;
+            }
+            footer{     
+                color:black;        
+                padding: 30px;
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+    
+        <header>
+            <video width = "100%" height= "100%" autoplay loop>
+            <source src = "vid\home_page_video.mp4"> </src>
+            </video>
+        
+        </header>
+
+        <nav>
+            <img src="pics\logo.png" alt="wedding logo" width="100" height="100">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        
+        <section id = "sec1">
+            <h1 id = "header1"> We Promise to <br>Make You Laugh,<br> Cry & Smile </h1>
+                <p id = "para1">We know that your wedding day is a special day that you will remember for the rest of your life.
+                            <br>We also know that it can be very busy and hectic, which is why we focus on keeping things
+                                simple & easy.
+                </p>
+        </section>
+
+        <h2 id="header2"> Blog Posts </h2>
+        
+        <section class = "gallery">
+            <div id = "image">
+                <img src = "pics\post-1.jpg" alt="Wedding Car" width = "350" height = "230">
+                    <b>Post 1</b> <br>
+                        <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti suscipit illo 
+                                sint modi veritatis soluta beatae voluptatem asperiores fugiat eaque illum sequi quisquam nemo 
+                                impedit, rem inventore recusandae ratione hic! <br>
+                    <a href = "LayoutActivity.html">Read more</a>
+            </div>
+            <div id = "image">
+                <img src="pics\post-2.jpg" alt = "Bride & Groom" width = "350" height = "230">
+                    <b>Post 2</b> <br>
+                        <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut blanditiis iure, 
+                                asperiores dolorem voluptas, a ratione labore, numquam officiis sequi aperiam earum. 
+                                Velit dolorem porro repudiandae sunt aut, debitis atque? <br>
+                    <a href = "LayoutActivity.html">Read more</a>
+            </div>
+            <div id = "image">
+                <img src = "pics\post-3.jpg" alt = "Bride" width = "350" height = "230">
+                    <br> <b>Post 3</b> <br>
+                        <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, 
+                                autem id. Quisquam ex nulla deserunt nostrum? Ex saepe accusamus placeat, aut maxime 
+                                excepturi, qui natus cumque consequatur quidem incidunt temporibus. <br>
+                <a href = "LayoutActivity.html">Read more</a> 
+            </div>
+        </section>
+
+        <section id = "caption">
+            <h3 id = "memories"> Let us be part of your Memories</h3>
+            <p> We know that your wedding day is a special day that you will remember for the rest of your life.</p>
+            <p> Book Now </p>
+        </section>
+
+        <footer>
+            &copy; All Rights Reserved
+        </footer>
+
+    </body>
+
+</html>
